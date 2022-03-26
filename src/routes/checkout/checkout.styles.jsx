@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const CheckoutContainer = styled.div`
   width: 55%;
@@ -30,4 +30,16 @@ export const Total = styled.span`
   margin-top: 30px;
   margin-left: auto;
   font-size: 36px;
+`;
+
+export const TestWarning = styled.div`
+  text-align: center;
+  margin-top: 40px;
+  font-size: 24px;
+  color: red;
+`;
+
+export const StripeButtonContainer = styled.div`
+  margin-top: 50px;
+  margin-left: auto;
 `;
